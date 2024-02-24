@@ -8,6 +8,21 @@ body {
     margin: 0;
 }
 
+nav {
+    display: flex;
+    flex-flow: row;
+    position: sticky;
+    top: 0;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: hsl(200, 100%, 95%);
+    z-index: 2;
+    border-bottom: 3px solid hsl(200, 100%, 90%);
+    box-shadow: 0 0 10px 0 hsla(236, 63%, 33%, 0.37);
+}
+
 .main {
     max-width: 1200px;
     margin: 0 auto;
@@ -120,4 +135,14 @@ a {
 
 a:hover {
     opacity: 70%;
+}
+
+h4 {
+    font-family: "Roboto Condensed", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-height: 80%;
+    font-size: 1.5em; 
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    margin-left: -5%;
 }
