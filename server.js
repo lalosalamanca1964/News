@@ -71,9 +71,9 @@ async function getRawData() {
 
 }
 
-const userRouter = require('./routes/users')
+const userRouter = require('./routes/category')
 
-app.use('/users', userRouter);
+app.use('/category', userRouter);
 
 
 app.use(express.static(__dirname + '/public'));

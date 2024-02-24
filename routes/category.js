@@ -5,7 +5,7 @@ router.get('/', (req, res) => {
     res.send('User List')
 })
 
-router.get('/new', (req, res) => {
+router.get('/tech', (req, res) => {
     res.send('User New Form')
 })
 

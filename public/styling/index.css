@@ -2,6 +2,7 @@ html {
     width: 100%;
     height: 100%;
     background-color: hsl(200, 100%, 95%);
+    scroll-behavior: smooth;
 }
 
 body {
@@ -143,6 +144,6 @@ h4 {
     font-size: 1.5em; 
     padding-top: 10px;
     padding-bottom: 15px;
-    padding-right: 15px;
-    margin-left: -5%;
+    padding-right: 10px;
+    margin-left: -35px;
 }
