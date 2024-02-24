@@ -1,0 +1,123 @@
+html {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(200, 100%, 95%);
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 15px;
+    max-width: 100%;
+    height: auto;
+    border-top: 2px solid hsl(0, 0, 20%);
+    margin-left: auto;
+    margin-right: auto;
+    background: hsla(0, 0%, 100%, 0.3);
+    box-shadow: 0 8px 20px 0 hsla(236, 63%, 33%, 0.37);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    flood-opacity: 0.30;
+    position: relative;
+}
+
+h2 {
+    font-family: "Roboto Condensed", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 90%;
+    max-height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.75em;
+}
+
+img {
+    max-height: 85%;
+    max-width: 75%;
+    border-radius: 15px;
+    margin: auto auto auto auto;
+}
+
+/*h3 {
+    font-size: 2.5em;
+    text-align: center;
+    font-family: "Oswald", 'Lucida Sans';
+    text-transform: capitalize;
+}
+
+.category {
+    flex: 1;
+    min-width: 200px;
+}
+
+.ribbon-2 {
+    width: 50%;
+    max-height: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    --f: 10px;
+    --r: 15px;
+    --t: 10px;
+    position: absolute;
+    inset: var(--t) calc(-1 * var(--f)) auto auto;
+    padding: 0 10px var(--f) calc(10px + var(--r));
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--f)), calc(100% - var(--f)) 100%,
+        calc(100% - var(--f)) calc(100% - var(--f)), 0 calc(100% - var(--f)),
+        var(--r) calc(50% - var(--f) / 2));
+    background: hsla(236, 26%, 54%, 0.37);
+    box-shadow: 0 calc(-1 * var(--f)) 0 inset #0005;
+}*/
+
+.news1 {
+    min-height: inherit;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container {
+    height: 100%;
+    margin: auto auto auto auto;
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+p {
+    font-family: 'Segoe UI';
+    margin: auto auto auto auto;
+}
+
+.snip {
+    max-width: 90%;
+}
+
+.date {
+    font-size: 0.95em;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: 10%;
+    color: hsl(0, 0%, 25%)
+}
+
+a {
+    font-family: 'Segoe UI';
+    margin-left: 5%;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+a:hover {
+    opacity: 70%;
+}

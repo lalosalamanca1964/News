@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styling/index.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Jockey+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="row">
+            <!--<div class="category">
+            <div class="ribbon-2">
+                <h3><%= locals.cat[0] %></h3>
+            </div>
+            </div>-->
+            <div class="news1">
+                <img src="<%= locals.img[0] %>">
+                <div class="container">
+                <h2><%= locals.items[0] || 'Defaulted' %></h2>
+                <div>
+                <p class="snip"><%= locals.snip[0] %></p> <a href="<%= locals.source[0] %>">Read More</a>
+                </div>
+                <p class="date">| <%= locals.published[0] %></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--<div class="category">
+            <div class="ribbon-2">
+                <h3><%= locals.cat[1] %></h3>
+            </div>
+            </div>-->
+            <div class="news1">
+                <img src="<%= locals.img[1] %>">
+                <div class="container">
+                <h2><%= locals.items[1] || 'Defaulted' %></h2>
+                <div>
+                <p class="snip"><%= locals.snip[1] %></p> <a href="<%= locals.source[1] %>">Read More</a>
+                </div>
+                <p class="date">| <%= locals.published[1] %></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--<div class="category">
+            <div class="ribbon-2">
+                <h3><%= locals.cat[2] %></h3>
+            </div>
+            </div>-->
+            <div class="news1">
+                <img src="<%= locals.img[2] %>">
+                <div class="container">
+                <h2><%= locals.items[2] || 'Defaulted' %></h2>
+                <div>
+                <p class="snip"><%= locals.snip[2] %></p> <a href="<%= locals.source[2] %>">Read More</a>
+                </div>
+                <p class="date">| <%= locals.published[2] %></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
